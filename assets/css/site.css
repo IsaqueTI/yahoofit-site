@@ -58,7 +58,7 @@ address { font-style: normal; }
 .yf-logo { display: inline-block; color: var(--yf-light); font-family: var(--yf-font-display); font-size: 1.7rem; line-height: 1.2; letter-spacing: .01em; text-decoration: none; white-space: nowrap; }
 .yf-logo:hover { color: #fff; }
 .yf-logo span { color: var(--yf-yellow); }
-.yf-nav a { color: var(--yf-light); font-size: .86rem; font-weight: 700; padding-block: 10px; text-decoration: none; }
+.yf-nav a { display: inline-flex; align-items: center; min-width: 44px; min-height: 44px; padding: 10px 8px; border-radius: 4px; color: var(--yf-light); font-size: .86rem; font-weight: 700; white-space: nowrap; text-decoration: none; }
 .yf-nav a:hover { color: var(--yf-yellow); }
 .yf-menu-toggle { padding-inline: 14px; }
 .yf-mobile-menu { --bs-offcanvas-width: min(340px, 90vw); }
