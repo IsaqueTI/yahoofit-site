@@ -64,7 +64,7 @@ Enquanto isso, o mapa e o link externo apontam **apenas para o bairro**, com leg
 - Número do WhatsApp, endereço e ponto exato no mapa.
 - Fotos reais dos ambientes e respostas finais do FAQ.
 
-As fotografias atuais são ilustrativas e estão identificadas. Os cartões de professores são espaços para preenchimento, sem nomes ou credenciais inventados.
+As fotografias atuais são ilustrativas e estão identificadas. A seção de professores tem oito perfis fictícios solicitados para a avaliação do layout, com nomes de demonstração e retratos gerados por IA. Cada cartão é identificado como “Perfil fictício” e “Imagem ilustrativa”. Os exemplos não representam a equipe real e não incluem formação, certificações, graduações ou contatos inventados.
 
 ## Publicar
 
