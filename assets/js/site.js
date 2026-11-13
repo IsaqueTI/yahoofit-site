@@ -45,7 +45,8 @@
       link.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
-      link.setAttribute("aria-label", `${link.textContent.trim()} (abre o WhatsApp em outra aba)`);
+      const label = link.getAttribute("aria-label") || link.textContent.replace(/\s+/g, " ").trim() || "Falar no WhatsApp com a yahoofit";
+      link.setAttribute("aria-label", `${label} (abre o WhatsApp em outra aba)`);
       return;
     }
     link.addEventListener("click", (event) => {

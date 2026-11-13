@@ -37,7 +37,8 @@ Acesse `http://localhost:8080`. Não há instalação de pacotes, compilação, 
 
 Edite `assets/js/config.js` com o número real, usando DDI 55, DDD e número, somente dígitos. Depois da validação do gestor, marque `whatsappConfirmed: true`.
 
-- O valor inicial está vazio e `whatsappConfirmed` começa em `false`.
+- O usuário confirmou `5534998680136` em 13/11/2026; `whatsappConfirmed` está em `true`.
+- Os botões também têm links reais no HTML para uso sem JavaScript. Ao trocar o número, atualize a configuração e esses links.
 - Um número brasileiro válido precisa ter 12 ou 13 dígitos incluindo o DDI 55.
 - Sem confirmação, os botões mostram um aviso local e **não abrem um contato vazio ou fictício**.
 - Com confirmação, cada botão usa sua própria mensagem e abre o WhatsApp em outra aba. O site não envia mensagens automaticamente.
@@ -59,12 +60,18 @@ Enquanto isso, o mapa e o link externo apontam **apenas para o bairro**, com leg
 
 - Disponibilidade das oito opções de treino do esboço, turmas e faixas etárias.
 - Professores, formação e fotos autorizadas da equipe.
-- Horários de funcionamento, grade de aulas, planos e valores.
+- Horários de funcionamento, grade de aulas e condições específicas de matrícula.
 - Disponibilidade e condições de aula experimental.
-- Número do WhatsApp, endereço e ponto exato no mapa.
+- Endereço e ponto exato no mapa.
 - Fotos reais dos ambientes e respostas finais do FAQ.
 
 As fotografias atuais são ilustrativas e estão identificadas. A seção de professores tem oito perfis fictícios solicitados para a avaliação do layout, com nomes de demonstração e retratos gerados por IA. Cada cartão é identificado como “Perfil fictício” e “Imagem ilustrativa”. Os exemplos não representam a equipe real e não incluem formação, certificações, graduações ou contatos inventados. Os cartões incluem um ícone de Instagram à direita: sete abrem um aviso de demonstração com o nome do professor, e o exemplo Thiago Ribeiro mostra o estado desabilitado e esmaecido. Nenhum ícone aponta para um usuário fictício no Instagram. Quando os perfis reais forem confirmados, os botões de demonstração podem ser substituídos por links oficiais com rótulo acessível.
+
+## Planos e Instagram
+
+Valores autorizados pelo usuário em 13/11/2026: R$ 129,90 por mês no plano recorrente e R$ 150,00 no plano mensal sem recorrência. A distinção entre as formas de pagamento foi preservada do HTML anterior da YahooFit. Não foram adicionadas condições de fidelidade, taxas ou promessas de disponibilidade das turmas. O FAQ acompanha os cartões, e a consulta de horários fica em um bloco separado.
+
+O Instagram institucional `https://www.instagram.com/academiayahoofit/`, identificado no HTML anterior e na ficha da academia no Wellhub, aparece no cabeçalho, menu móvel, contato e rodapé. Os perfis demonstrativos dos professores continuam separados do perfil institucional.
 
 ## Benefícios aceitos
 
@@ -97,7 +104,7 @@ node --check assets/js/config.js
 node --check assets/js/site.js
 ```
 
-Node é utilizado somente na verificação de sintaxe acima; não é uma dependência para publicar ou usar o site. Também confira no navegador o menu móvel, fechamento com Escape, FAQ, os oito cartões de modalidade, aviso de contato pendente e larguras entre 320 e 1440 px.
+Node é utilizado somente na verificação de sintaxe acima; não é uma dependência para publicar ou usar o site. Também confira no navegador o menu móvel, fechamento com Escape, FAQ, os oito cartões de modalidade, links de WhatsApp e Instagram e larguras entre 320 e 1440 px.
 
 ## Terceiros
 

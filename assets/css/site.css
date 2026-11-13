@@ -62,6 +62,10 @@ address { font-style: normal; }
 .yf-nav a { display: inline-flex; align-items: center; min-width: 44px; min-height: 44px; padding: 10px 12px; border-radius: 4px; color: var(--yf-light); font-size: 1.125rem; font-weight: 700; white-space: nowrap; text-decoration: none; }
 .yf-nav a:hover { color: var(--yf-yellow); }
 .yf-menu-toggle { padding-inline: 14px; }
+.yf-social-link { display: inline-flex; min-height: 44px; align-items: center; gap: 10px; color: inherit; font-weight: 700; text-decoration: none; }
+.yf-social-link:hover { color: inherit; text-decoration: underline; text-underline-offset: 4px; }
+.yf-instagram-icon { display: inline-flex; flex-shrink: 0; width: 44px; height: 44px; align-items: center; justify-content: center; border-radius: 50%; background: radial-gradient(circle at 25% 110%, #f9ce34 0%, #ee2a7b 45%, #6228d7 100%); color: #fff; }
+.yf-instagram-icon svg { display: block; }
 .yf-mobile-menu { --bs-offcanvas-width: min(340px, 90vw); }
 .yf-mobile-menu .offcanvas-header { padding: 24px; }
 .yf-mobile-menu .offcanvas-body { padding: 0 24px 24px; }
@@ -129,8 +133,17 @@ address { font-style: normal; }
 .yf-teacher-instagram:disabled { opacity: .3; filter: grayscale(1); cursor: default; }
 .yf-teacher-photo { position: relative; overflow: hidden; flex-shrink: 0; aspect-ratio: 1; background: var(--yf-black); border-radius: 8px; }
 .yf-teacher-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.yf-plan-card { background: var(--yf-light); border: 1px solid var(--yf-border); border-radius: 10px; }
-.yf-plan-card .card-body { padding: 24px; }
+.yf-plan-card { background: var(--yf-light); border: 1px solid var(--yf-border); border-radius: 12px; }
+.yf-plan-card .card-body { padding: 28px; }
+.yf-plan-featured { border-color: var(--yf-black); box-shadow: inset 0 5px 0 var(--yf-yellow); }
+.yf-plan-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; margin-bottom: 20px; }
+.yf-plan-price strong { font-size: clamp(2.5rem, 4vw, 3.25rem); font-weight: 800; line-height: 1.1; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.yf-plan-currency { font-size: 1rem; font-weight: 800; }
+.yf-plan-period { color: var(--yf-gray); font-size: .875rem; }
+.yf-plan-copy { color: var(--yf-gray); font-size: 1rem; }
+.yf-plan-hours { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-top: 24px; padding: 24px; border: 1px solid var(--yf-border); border-radius: 12px; }
+.yf-contact-phone { display: inline-flex; min-height: 44px; align-items: center; color: var(--yf-black); font-size: 1.25rem; font-weight: 800; text-underline-offset: 4px; }
+.yf-contact-phone:hover { color: var(--yf-black); }
 .yf-faq { background: var(--yf-light); }
 .yf-faq-container { max-width: 920px; }
 .yf-faq .accordion { --bs-accordion-bg: transparent; --bs-accordion-color: var(--yf-gray); --bs-accordion-border-color: var(--yf-border); --bs-accordion-btn-color: var(--yf-black); --bs-accordion-active-color: var(--yf-black); --bs-accordion-active-bg: transparent; --bs-accordion-btn-focus-box-shadow: none; }
