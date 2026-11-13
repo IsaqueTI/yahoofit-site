@@ -110,7 +110,7 @@
   });
 
   // Evita manter a navegação móvel aberta quando a janela passa para desktop.
-  const desktop = window.matchMedia("(min-width: 992px)");
+  const desktop = window.matchMedia("(min-width: 1200px)");
   desktop.addEventListener("change", (event) => {
     if (event.matches && mobileMenu) bootstrap?.Offcanvas?.getInstance(mobileMenu)?.hide();
   });
