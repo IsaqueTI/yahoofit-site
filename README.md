@@ -42,6 +42,7 @@ Edite `assets/js/config.js` com o número real, usando DDI 55, DDD e número, so
 - Um número brasileiro válido precisa ter 12 ou 13 dígitos incluindo o DDI 55.
 - Sem confirmação, os botões mostram um aviso local e **não abrem um contato vazio ou fictício**.
 - Com confirmação, cada botão usa sua própria mensagem e abre o WhatsApp em outra aba. O site não envia mensagens automaticamente.
+- Todas as mensagens começam com “Olá vim pelo site da yahoofit”, mantendo o assunto de cada botão (modalidade, plano, benefício ou horários). O padrão também vale para os links estáticos e a mensagem de reserva do JavaScript.
 
 ## Validar endereço e mapa
 
