@@ -76,7 +76,7 @@ address { font-style: normal; }
 
 .yf-hero { position: relative; isolation: isolate; }
 .yf-hero-media { position: relative; height: clamp(150px, 25svh, 230px); overflow: hidden; }
-.yf-hero-media img { width: 100%; height: 100%; object-fit: cover; object-position: 65% 35%; }
+.yf-hero-media img { width: 100%; height: 100%; object-fit: cover; object-position: right top; }
 .yf-hero-copy { position: relative; z-index: 2; padding-block: 28px 36px; }
 .yf-hero-content { max-width: 620px; }
 .yf-hero-title { font-size: clamp(2.5rem, 7vw, 5.5rem); line-height: 1.02; }

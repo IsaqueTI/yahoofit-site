@@ -74,6 +74,10 @@ Valores autorizados pelo usuário em 13/11/2026: R$ 129,90 por mês no plano rec
 
 O Instagram institucional `https://www.instagram.com/academiayahoofit/`, identificado no HTML anterior e na ficha da academia no Wellhub, aparece no cabeçalho, menu móvel, contato e rodapé. Os perfis demonstrativos dos professores continuam separados do perfil institucional.
 
+## Imagem de abertura
+
+O hero usa `assets/img/hero-musculacao-simple.webp`, composição aprovada pelo usuário em 13/11/2026 com musculação e as fotos e a marca fornecidas da Simple, parceira de artes marciais. A composição combina fotografia enviada com elementos gerados, por isso mantém a identificação “Imagem ilustrativa”. Foi preparada em WebP de 1536 × 1024 px sem alterar o enquadramento da imagem aprovada. O arquivo antigo `hero-treino.jpg` permanece preservado no projeto. Origem e prompt constam em `docs/IMAGENS-ILUSTRATIVAS.md`.
+
 ## Benefícios aceitos
 
 A aceitação de TotalPass e Wellhub foi informada pelo usuário. A home apresenta “Aceitamos seu benefício” dentro da seção `#planos`, abaixo dos preços e da consulta de horários, com os nomes das duas plataformas, acesso à consulta de condições e uma resposta no FAQ. Planos de cada plataforma e condições específicas de acesso devem ser validados com a academia.
