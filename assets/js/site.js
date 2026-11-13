@@ -69,6 +69,14 @@
     focusTarget?.focus();
   });
 
+  // Os perfis fictícios demonstram a interação sem apontar para contas inventadas.
+  const teacherInstagramModal = document.getElementById("instagramProfessor");
+  teacherInstagramModal?.addEventListener("show.bs.modal", (event) => {
+    const name = event.relatedTarget?.getAttribute("data-professor-instagram");
+    const title = document.getElementById("instagramProfessorTitulo");
+    if (title) title.textContent = name ? `Instagram de ${name}` : "Instagram do professor";
+  });
+
   // A rota exata só é habilitada após a validação do endereço e do link.
   if (config.addressConfirmed === true && config.mapsUrl) {
     try {
