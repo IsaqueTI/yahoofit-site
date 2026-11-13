@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/site.css?v=logo-20261113">
+  <link rel="stylesheet" href="assets/css/site.css?v=modalidades-20261113">
   <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
   <script src="assets/js/config.js" defer></script>
   <script src="assets/js/site.js" defer></script>
@@ -89,45 +89,118 @@
     <section class="yf-section" id="modalidades" aria-labelledby="titulo-modalidades">
       <div class="container">
         <h2 class="yf-display yf-section-title mb-3" id="titulo-modalidades">Encontre seu jeito de treinar</h2>
-        <p class="yf-muted yf-section-intro mb-5">Oito opções no esboço da yahoofit. Escolha uma modalidade para conhecer a proposta de cada aula.</p>
-        <div class="row g-4">
-          <article class="col-md-4">
-            <a class="yf-activity-card" href="#modalidade-musculacao">
-              <img src="assets/img/musculacao.jpg" width="928" height="720" alt="Pessoa treinando com halter. Imagem ilustrativa." loading="lazy" decoding="async">
-              <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
-              <h3 class="yf-display">Musculação</h3>
-            </a>
-            <p class="yf-muted mt-3 mb-3">Exercícios com pesos e aparelhos para trabalhar força e condicionamento.</p>
-            <details class="yf-modality" id="modalidade-musculacao">
-              <summary>Musculação</summary>
-              <div class="yf-modality-body"><p>Conheça a proposta de treino com pesos e aparelhos. Converse com a equipe sobre orientação, objetivos e disponibilidade.</p><a href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de conhecer a musculação e saber como começar.">Conversar sobre musculação <span aria-hidden="true">→</span></a></div>
-            </details>
-          </article>
-          <article class="col-md-4">
-            <a class="yf-activity-card" href="#modalidade-funcional">
-              <img src="assets/img/coletivas.jpg" width="928" height="720" alt="Pessoas participando de uma aula coletiva. Imagem ilustrativa." loading="lazy" decoding="async">
-              <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
-              <h3 class="yf-display">Aulas coletivas</h3>
-            </a>
-            <p class="yf-muted mt-3 mb-3">Movimento em grupo, com propostas diferentes para compor a sua rotina.</p>
-            <div class="yf-modality-grid">
-              <details class="yf-modality" id="modalidade-funcional"><summary>Funcional</summary><div class="yf-modality-body"><p>Exercícios dinâmicos que combinam movimentos de força, equilíbrio e coordenação.</p><a href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Funcional.">Consultar Funcional <span aria-hidden="true">→</span></a></div></details>
-              <details class="yf-modality" id="modalidade-abs"><summary>ABS</summary><div class="yf-modality-body"><p>A proposta reúne exercícios para a região abdominal e a estabilidade do tronco.</p><a href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de ABS.">Consultar ABS <span aria-hidden="true">→</span></a></div></details>
-              <details class="yf-modality" id="modalidade-gap"><summary>GAP</summary><div class="yf-modality-body"><p>Glúteos, abdômen e pernas: conheça a proposta e consulte a disponibilidade das aulas.</p><a href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de GAP.">Consultar GAP <span aria-hidden="true">→</span></a></div></details>
-              <details class="yf-modality" id="modalidade-fit-dance"><summary>Fit Dance</summary><div class="yf-modality-body"><p>Coreografias e movimento ao ritmo da música. Consulte as turmas com a equipe.</p><a href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Fit Dance.">Consultar Fit Dance <span aria-hidden="true">→</span></a></div></details>
+        <p class="yf-muted yf-section-intro mb-5">Musculação, aulas coletivas e artes marciais: conheça a proposta de cada uma das oito modalidades.</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4">
+          <article class="col" id="modalidade-musculacao" aria-labelledby="titulo-modalidade-musculacao">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/musculacao.jpg" width="928" height="720" alt="Pessoa treinando com halter. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Força</p>
+                <h3 class="yf-display" id="titulo-modalidade-musculacao">Musculação</h3>
+                <p class="yf-modality-description">Exercícios com pesos e aparelhos para trabalhar força e condicionamento.</p>
+                <a class="yf-modality-action mt-auto" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Musculação.">Consultar aulas<span class="visually-hidden"> de Musculação</span><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
             </div>
           </article>
-          <article class="col-md-4">
-            <a class="yf-activity-card" href="#modalidade-muay-thai">
-              <img src="assets/img/lutas.jpg" width="928" height="720" alt="Praticante de Jiu-Jitsu de quimono no tatame. Imagem ilustrativa." loading="lazy" decoding="async">
-              <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
-              <h3 class="yf-display">Artes marciais</h3>
-            </a>
-            <p class="yf-muted mt-3 mb-3">Conheça as modalidades de luta previstas para adultos e crianças.</p>
-            <div class="yf-modality-grid">
-              <details class="yf-modality" id="modalidade-muay-thai"><summary>Muay Thai</summary><div class="yf-modality-body"><p>Arte marcial tailandesa com exercícios de técnica e condicionamento. Consulte as turmas e as orientações para começar.</p><a href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Muay Thai.">Consultar Muay Thai <span aria-hidden="true">→</span></a></div></details>
-              <details class="yf-modality" id="modalidade-jiu-jitsu"><summary>Jiu-Jitsu adulto</summary><div class="yf-modality-body"><p>Técnicas de controle, posicionamento e estratégia no tatame. Conheça a proposta das aulas para adultos.</p><a href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Jiu-Jitsu adulto.">Consultar Jiu-Jitsu <span aria-hidden="true">→</span></a></div></details>
-              <a class="yf-modality-link" href="#kids">Jiu-Jitsu Kids <span aria-hidden="true">↗</span></a>
+          <article class="col" id="modalidade-funcional" aria-labelledby="titulo-modalidade-funcional">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/coletivas.jpg" width="928" height="720" alt="Pessoas treinando com kettlebells em grupo. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Aulas coletivas</p>
+                <h3 class="yf-display" id="titulo-modalidade-funcional">Funcional</h3>
+                <p class="yf-modality-description">Exercícios dinâmicos que combinam força, equilíbrio e coordenação em movimentos variados.</p>
+                <a class="yf-modality-action mt-auto" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Funcional.">Consultar aulas<span class="visually-hidden"> de Funcional</span><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+          </article>
+          <article class="col" id="modalidade-abs" aria-labelledby="titulo-modalidade-abs">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/modal-abs.webp" width="928" height="696" alt="Adultos fazendo prancha nos antebraços sobre colchonetes. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Aulas coletivas</p>
+                <h3 class="yf-display" id="titulo-modalidade-abs">ABS</h3>
+                <p class="yf-modality-description">Exercícios voltados à região abdominal e à estabilidade do tronco, com foco no controle dos movimentos.</p>
+                <a class="yf-modality-action mt-auto" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de ABS.">Consultar aulas<span class="visually-hidden"> de ABS</span><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+          </article>
+          <article class="col" id="modalidade-gap" aria-labelledby="titulo-modalidade-gap">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/modal-gap.webp" width="928" height="696" alt="Adultas fazendo avanço com halteres em um estúdio. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Aulas coletivas</p>
+                <h3 class="yf-display" id="titulo-modalidade-gap">GAP</h3>
+                <p class="yf-modality-description">Uma proposta de treino com exercícios voltados a glúteos, abdômen e pernas para compor sua rotina.</p>
+                <a class="yf-modality-action mt-auto" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de GAP.">Consultar aulas<span class="visually-hidden"> de GAP</span><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+          </article>
+          <article class="col" id="modalidade-fit-dance" aria-labelledby="titulo-modalidade-fit-dance">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/modal-fit-dance.webp" width="928" height="696" alt="Adultos acompanhando uma coreografia em aula de dança. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Aulas coletivas</p>
+                <h3 class="yf-display" id="titulo-modalidade-fit-dance">Fit Dance</h3>
+                <p class="yf-modality-description">Coreografias ao ritmo da música para movimentar o corpo em uma aula coletiva de dança.</p>
+                <a class="yf-modality-action mt-auto" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Fit Dance.">Consultar aulas<span class="visually-hidden"> de Fit Dance</span><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+          </article>
+          <article class="col" id="modalidade-muay-thai" aria-labelledby="titulo-modalidade-muay-thai">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/modal-muay-thai.webp" width="928" height="696" alt="Aluna de luvas treinando um soco com aparadores e um professor. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Artes marciais</p>
+                <h3 class="yf-display" id="titulo-modalidade-muay-thai">Muay Thai</h3>
+                <p class="yf-modality-description">Arte marcial tailandesa que combina técnicas de socos, chutes, joelhadas e cotoveladas com exercícios de condicionamento.</p>
+                <a class="yf-modality-action mt-auto" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Muay Thai.">Consultar aulas<span class="visually-hidden"> de Muay Thai</span><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+          </article>
+          <article class="col" id="modalidade-jiu-jitsu" aria-labelledby="titulo-modalidade-jiu-jitsu">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/lutas.jpg" width="928" height="720" alt="Praticante adulto de Jiu-Jitsu com quimono no tatame. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Artes marciais</p>
+                <h3 class="yf-display" id="titulo-modalidade-jiu-jitsu">Jiu-Jitsu adulto</h3>
+                <p class="yf-modality-description">Técnicas de controle, posicionamento e estratégia no tatame para conhecer e praticar o Jiu-Jitsu.</p>
+                <a class="yf-modality-action mt-auto" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de consultar as aulas de Jiu-Jitsu adulto.">Consultar aulas<span class="visually-hidden"> de Jiu-Jitsu adulto</span><svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+          </article>
+          <article class="col" id="modalidade-jiu-jitsu-kids" aria-labelledby="titulo-modalidade-jiu-jitsu-kids">
+            <div class="yf-modality-card h-100">
+              <div class="yf-modality-media">
+                <img src="assets/img/jiujitsu-kids.jpg" width="1200" height="912" alt="Crianças de quimono ouvindo um professor no tatame. Imagem ilustrativa." loading="lazy" decoding="async">
+                <span class="yf-image-badge yf-image-badge-top">Imagem ilustrativa</span>
+              </div>
+              <div class="yf-modality-content">
+                <p class="yf-modality-category">Artes marciais</p>
+                <h3 class="yf-display" id="titulo-modalidade-jiu-jitsu-kids">Jiu-Jitsu Kids</h3>
+                <p class="yf-modality-description">Introdução ao Jiu-Jitsu para crianças, com atividades no tatame, convivência e respeito. Consulte as faixas etárias com a equipe.</p>
+                <a class="yf-modality-action mt-auto" href="#kids">Conhecer o Kids <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
             </div>
           </article>
         </div>

@@ -84,12 +84,12 @@ node --check assets/js/config.js
 node --check assets/js/site.js
 ```
 
-Node é utilizado somente na verificação de sintaxe acima; não é uma dependência para publicar ou usar o site. Também confira no navegador o menu móvel, fechamento com Escape, FAQ, detalhes de cada modalidade, aviso de contato pendente e larguras entre 320 e 1440 px.
+Node é utilizado somente na verificação de sintaxe acima; não é uma dependência para publicar ou usar o site. Também confira no navegador o menu móvel, fechamento com Escape, FAQ, os oito cartões de modalidade, aviso de contato pendente e larguras entre 320 e 1440 px.
 
 ## Terceiros
 
 A marca é escrita como `yahoofit`. A imagem enviada pela academia está em `assets/img/yahoofit-logo.png`, sem alteração dos pixels originais, e também é usada como favicon. A versão de apresentação `assets/img/yahoofit-logo-site.svg` incorpora essa mesma imagem e remove o fundo escuro com uma máscara de opacidade na renderização. O enquadramento preserva o símbolo e o nome inteiros, sem os ornamentos dos cantos. O cabeçalho, o menu móvel e o rodapé usam a mesma versão, com proporção preservada e fundo transparente.
 
-Bootstrap 5.3.9 é distribuído sob licença MIT, preservada em `assets/vendor/bootstrap/LICENSE`. As cinco fotografias foram preservadas do repositório de origem, sem alteração dos arquivos. Consulte `docs/MIGRACAO.md` para a origem e as verificações.
+Bootstrap 5.3.9 é distribuído sob licença MIT, preservada em `assets/vendor/bootstrap/LICENSE`. As cinco fotografias de origem foram preservadas sem alteração dos arquivos. A seção de modalidades mostra oito cartões com fotos e descrições sempre visíveis, em quatro colunas nas telas grandes, duas nas intermediárias e uma no celular. ABS, GAP, Fit Dance e Muay Thai usam quatro imagens adicionais geradas por IA, identificadas como ilustrativas e otimizadas em WebP. Consulte `docs/MIGRACAO.md` para a origem e as verificações e `docs/IMAGENS-ILUSTRATIVAS.md` para os novos ativos.
 
 O ícone de WhatsApp incorporado ao HTML é do Bootstrap Icons, sob licença MIT, preservada em `assets/vendor/bootstrap-icons/LICENSE`. O botão circular aparece no computador e no celular; seu halo pulsa a cada dois segundos, como no Team Baiano, e é desativado quando a pessoa prefere reduzir movimento. O destino continua controlado por `assets/js/config.js`.

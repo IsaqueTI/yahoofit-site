@@ -65,3 +65,7 @@ Verificações concluídas em 12/11/2026:
 - Contato pendente abre o aviso local, inclusive pelo menu móvel; ao fechar, o foco retorna ao acionador adequado.
 
 A confirmação dos dados comerciais, a troca das fotos ilustrativas e a revisão no domínio final continuam necessárias antes de disponibilizar a versão comercial.
+
+## Atualização das modalidades — 13/11/2026
+
+As oito modalidades agora têm cartões individuais com foto e descrição visível no HTML. As âncoras antigas de cada modalidade foram preservadas; Jiu-Jitsu Kids também mantém o link para a seção dedicada. A grade usa quatro colunas nas telas grandes, duas nas intermediárias e uma no celular. Quatro novos ativos ilustrativos em WebP complementam as fotografias de origem, sem substituí-las. Os dados comerciais continuam pendentes de validação.
