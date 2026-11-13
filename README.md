@@ -89,3 +89,5 @@ Node é utilizado somente na verificação de sintaxe acima; não é uma depend�
 ## Terceiros
 
 Bootstrap 5.3.9 é distribuído sob licença MIT, preservada em `assets/vendor/bootstrap/LICENSE`. As cinco fotografias foram preservadas do repositório de origem, sem alteração dos arquivos. Consulte `docs/MIGRACAO.md` para a origem e as verificações.
+
+O ícone de WhatsApp incorporado ao HTML é do Bootstrap Icons, sob licença MIT, preservada em `assets/vendor/bootstrap-icons/LICENSE`. O botão circular aparece no computador e no celular; seu halo pulsa a cada dois segundos, como no Team Baiano, e é desativado quando a pessoa prefere reduzir movimento. O destino continua controlado por `assets/js/config.js`.

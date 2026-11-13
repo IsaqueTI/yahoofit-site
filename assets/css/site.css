@@ -131,13 +131,28 @@ address { font-style: normal; }
 .yf-map iframe { display: block; width: 100%; border: 0; }
 .yf-map-caption { padding: 8px 12px; background: var(--yf-black); color: #fff; font-size: .72rem; text-align: center; }
 .yf-footer { padding-block: 44px 110px; }
-.yf-floating-contact { position: fixed; left: 16px; right: 16px; bottom: max(14px, env(safe-area-inset-bottom)); z-index: 1030; box-shadow: 0 8px 30px #0004; }
+/* Mesmo halo pulsante de 2 segundos usado no Team Baiano. */
+.yf-floating-contact { position: fixed; right: max(30px, env(safe-area-inset-right)); bottom: max(30px, env(safe-area-inset-bottom)); z-index: 1030; display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; background: #129c4e; color: #fff; text-decoration: none; box-shadow: 0 8px 24px #0003; transition: transform .3s ease, background-color .3s ease; touch-action: manipulation; }
+.yf-floating-contact::before { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; animation: yf-whatsapp-pulse 2s infinite; }
+.yf-floating-contact svg { position: relative; width: 30px; height: 30px; flex-shrink: 0; }
+.yf-floating-contact:hover { color: #fff; transform: scale(1.1); }
+.yf-floating-contact:focus-visible { outline: 3px solid #fff !important; outline-offset: 4px; box-shadow: 0 0 0 8px var(--yf-black); }
+.yf-floating-contact:focus-visible::before { animation: none; }
+@keyframes yf-whatsapp-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, .7); }
+  70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
 .yf-contact-modal { background: var(--yf-cream); color: var(--yf-black); border: 0; border-top: 4px solid var(--yf-yellow); border-radius: 12px; }
 .yf-contact-modal .modal-header, .yf-contact-modal .modal-footer { border-color: var(--yf-border); }
 .yf-contact-modal .modal-header, .yf-contact-modal .modal-body, .yf-contact-modal .modal-footer { padding: 20px 24px; }
 
 @media (min-width: 768px) {
   .yf-gallery { grid-auto-flow: initial; grid-auto-columns: auto; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; }
+}
+@media (max-width: 768px) {
+  .yf-floating-contact { width: 50px; height: 50px; right: max(20px, env(safe-area-inset-right)); bottom: max(20px, env(safe-area-inset-bottom)); }
+  .yf-floating-contact svg { width: 26px; height: 26px; }
 }
 @media (min-width: 992px) {
   .yf-section { padding-block: 96px; }
@@ -159,7 +174,8 @@ address { font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
-  .yf-btn:hover, .yf-activity-card:hover img { transform: none; }
+  .yf-btn:hover, .yf-activity-card:hover img, .yf-floating-contact:hover { transform: none; }
+  .yf-floating-contact::before { animation: none; }
 }
 @media print {
   .yf-header, .yf-floating-contact, .offcanvas, .modal, .yf-map iframe { display: none !important; }
