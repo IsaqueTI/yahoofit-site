@@ -66,6 +66,10 @@ Enquanto isso, o mapa e o link externo apontam **apenas para o bairro**, com leg
 
 As fotografias atuais são ilustrativas e estão identificadas. A seção de professores tem oito perfis fictícios solicitados para a avaliação do layout, com nomes de demonstração e retratos gerados por IA. Cada cartão é identificado como “Perfil fictício” e “Imagem ilustrativa”. Os exemplos não representam a equipe real e não incluem formação, certificações, graduações ou contatos inventados. Os cartões incluem um ícone de Instagram à direita: sete abrem um aviso de demonstração com o nome do professor, e o exemplo Thiago Ribeiro mostra o estado desabilitado e esmaecido. Nenhum ícone aponta para um usuário fictício no Instagram. Quando os perfis reais forem confirmados, os botões de demonstração podem ser substituídos por links oficiais com rótulo acessível.
 
+## Benefícios aceitos
+
+A aceitação de TotalPass e Wellhub foi informada pelo usuário. A home apresenta “Aceitamos seu benefício” logo após a abertura, com os nomes das duas plataformas, acesso à consulta de condições e uma resposta no FAQ. Planos de cada plataforma e condições específicas de acesso devem ser validados com a academia.
+
 ## Publicar
 
 Envie `index.html` e a pasta `assets/` a uma hospedagem estática. Não é necessário Node.js, React, TanStack Start, Vite ou Tailwind para executar o site.
