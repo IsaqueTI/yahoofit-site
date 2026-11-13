@@ -88,7 +88,7 @@ Node é utilizado somente na verificação de sintaxe acima; não é uma depend�
 
 ## Terceiros
 
-A marca é escrita como `yahoofit`. A imagem enviada pela academia está em `assets/img/yahoofit-logo.png`, sem alteração dos pixels originais, e também é usada como favicon. O CSS enquadra o símbolo e o nome no cabeçalho, no menu móvel e no rodapé.
+A marca é escrita como `yahoofit`. A imagem enviada pela academia está em `assets/img/yahoofit-logo.png`, sem alteração dos pixels originais, e também é usada como favicon. A versão de apresentação `assets/img/yahoofit-logo-site.svg` incorpora essa mesma imagem e remove o fundo escuro com uma máscara de opacidade na renderização. O enquadramento preserva o símbolo e o nome inteiros, sem os ornamentos dos cantos. O cabeçalho, o menu móvel e o rodapé usam a mesma versão, com proporção preservada e fundo transparente.
 
 Bootstrap 5.3.9 é distribuído sob licença MIT, preservada em `assets/vendor/bootstrap/LICENSE`. As cinco fotografias foram preservadas do repositório de origem, sem alteração dos arquivos. Consulte `docs/MIGRACAO.md` para a origem e as verificações.
 
