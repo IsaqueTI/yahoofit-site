@@ -95,11 +95,6 @@ address { font-style: normal; }
 .yf-modality-action svg { flex-shrink: 0; margin-left: auto; }
 .yf-modality-action:hover { color: var(--yf-black); text-decoration: underline; text-underline-offset: 4px; }
 
-.yf-kids { background: var(--yf-yellow-soft); }
-.yf-kids-media { min-height: 270px; }
-.yf-kids-media img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.yf-kids-copy { padding: 40px 24px; }
-.yf-kids-description { max-width: 430px; }
 .yf-pending { display: inline-block; padding: 3px 8px; border: 1px dashed currentColor; border-radius: 4px; font-size: .68rem; font-weight: 800; line-height: 1.6; letter-spacing: .04em; text-transform: uppercase; vertical-align: middle; }
 .yf-gallery { display: grid; grid-auto-flow: column; grid-auto-columns: 76%; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-block: 4px 16px; }
 .yf-gallery figure { margin: 0; scroll-snap-align: start; }
@@ -159,8 +154,6 @@ address { font-style: normal; }
   .yf-hero-media { position: absolute; inset: 0 0 0 38%; height: auto; }
   .yf-hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--yf-black), #0e0e0e55 40%, transparent 75%); }
   .yf-hero-copy { padding-block: 64px; }
-  .yf-kids-media img { position: absolute; inset: 0; }
-  .yf-kids-copy { padding: 80px 64px; }
   .yf-footer { padding-bottom: 44px; }
 }
 @media (min-width: 1200px) { .container { max-width: 1200px; } }

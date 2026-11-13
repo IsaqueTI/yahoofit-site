@@ -68,7 +68,7 @@ A confirmação dos dados comerciais, a troca das fotos ilustrativas e a revisã
 
 ## Atualização das modalidades — 13/11/2026
 
-As oito modalidades agora têm cartões individuais com foto e descrição visível no HTML. As âncoras antigas de cada modalidade foram preservadas; Jiu-Jitsu Kids também mantém o link para a seção dedicada. A grade usa quatro colunas nas telas grandes, duas nas intermediárias e uma no celular. Quatro novos ativos ilustrativos em WebP complementam as fotografias de origem, sem substituí-las. Os dados comerciais continuam pendentes de validação.
+As oito modalidades agora têm cartões individuais com foto e descrição visível no HTML. As âncoras dos oito cartões identificam cada modalidade. Jiu-Jitsu Kids usa a mesma ação de consulta das demais opções; o bloco de destaque exclusivo foi removido da home para dar lugar às futuras páginas individuais. A grade usa quatro colunas nas telas grandes, duas nas intermediárias e uma no celular. Quatro novos ativos ilustrativos em WebP complementam as fotografias de origem, sem substituí-las. Os dados comerciais continuam pendentes de validação.
 
 ## Demonstração da equipe — 13/11/2026
 

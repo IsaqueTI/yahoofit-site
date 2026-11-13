@@ -76,6 +76,8 @@ O Bootstrap está incluído localmente. As fontes Anton e Manrope são solicitad
 
 A página tem título e descrição próprios, um H1 visível, hierarquia de títulos, atributos `alt`, links internos e todo o conteúdo principal no HTML. Os dados estruturados de negócio, URL canônica, imagem social absoluta, sitemap e páginas específicas de modalidade devem usar o domínio e as informações finais confirmadas. Não foram inventadas URLs de produção ou avaliações.
 
+As futuras páginas individuais serão vinculadas aos cartões conforme forem criadas. A home apresenta as oito modalidades na mesma grade; o cartão de Jiu-Jitsu Kids oferece “Consultar aulas” e o destaque exclusivo dessa modalidade foi removido.
+
 ## Verificar alterações
 
 ```sh
