@@ -76,7 +76,7 @@ O Instagram institucional `https://www.instagram.com/academiayahoofit/`, identif
 
 ## Benefícios aceitos
 
-A aceitação de TotalPass e Wellhub foi informada pelo usuário. A home apresenta “Aceitamos seu benefício” logo após a abertura, com os nomes das duas plataformas, acesso à consulta de condições e uma resposta no FAQ. Planos de cada plataforma e condições específicas de acesso devem ser validados com a academia.
+A aceitação de TotalPass e Wellhub foi informada pelo usuário. A home apresenta “Aceitamos seu benefício” dentro da seção `#planos`, abaixo dos preços e da consulta de horários, com os nomes das duas plataformas, acesso à consulta de condições e uma resposta no FAQ. Planos de cada plataforma e condições específicas de acesso devem ser validados com a academia.
 
 As marcas dos parceiros aparecem em cards com suas cores e links para os sites oficiais (nova aba). Os arquivos são servidos localmente, sem depender de carregamento externo:
 

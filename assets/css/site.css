@@ -88,7 +88,7 @@ address { font-style: normal; }
 .yf-values-list { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; list-style: none; gap: 10px; padding-block: 16px; font-size: clamp(.62rem, 1.2vw, .78rem); }
 .yf-values-list li + li::before { content: "•"; display: inline-block; margin-right: clamp(.5rem, 3.5vw, 2rem); }
 
-.yf-benefits { padding-block: 48px; border-bottom: 1px solid var(--yf-border); background: #fff; }
+.yf-benefits { margin-top: 48px; padding: clamp(24px, 4vw, 40px); border: 1px solid var(--yf-border); border-radius: 16px; background: #fff; }
 .yf-benefits-title { font-size: clamp(2rem, 3.2vw, 2.75rem); }
 .yf-benefit-highlight { background: linear-gradient(transparent 65%, var(--yf-yellow) 65%, var(--yf-yellow) 94%, transparent 94%); }
 .yf-benefit-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
