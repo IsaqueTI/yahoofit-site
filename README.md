@@ -70,6 +70,13 @@ As fotografias atuais são ilustrativas e estão identificadas. A seção de pro
 
 A aceitação de TotalPass e Wellhub foi informada pelo usuário. A home apresenta “Aceitamos seu benefício” logo após a abertura, com os nomes das duas plataformas, acesso à consulta de condições e uma resposta no FAQ. Planos de cada plataforma e condições específicas de acesso devem ser validados com a academia.
 
+As marcas dos parceiros aparecem em cards com suas cores e links para os sites oficiais (nova aba). Os arquivos são servidos localmente, sem depender de carregamento externo:
+
+- `assets/img/parceiros/totalpass.png`: marca original obtida em `https://totalpass.com/_next/static/media/logo-tp.2jvd88idyp7c0.png`, referenciada no site brasileiro da TotalPass.
+- `assets/img/parceiros/wellhub.svg`: SVG original da marca rosa extraído do cabeçalho de `https://wellhub.com/pt-br/`.
+
+As marcas foram consultadas em 13/11/2026; suas proporções e cores foram preservadas. A ação de consulta das condições continua direcionada ao contato da academia.
+
 ## Publicar
 
 Envie `index.html` e a pasta `assets/` a uma hospedagem estática. Não é necessário Node.js, React, TanStack Start, Vite ou Tailwind para executar o site.

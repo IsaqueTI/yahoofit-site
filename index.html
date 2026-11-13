@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/site.css?v=beneficios-20261113">
+  <link rel="stylesheet" href="assets/css/site.css?v=parceiros-marcas-20261113">
   <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
   <script src="assets/js/config.js" defer></script>
   <script src="assets/js/site.js?v=menu-local-faq-20261113" defer></script>
@@ -91,15 +91,27 @@
         <div class="row gx-4 gy-4 align-items-center">
           <div class="col-lg-6">
             <p class="yf-eyebrow mb-2">Parceiros</p>
-            <h2 class="yf-display yf-benefits-title mb-3" id="titulo-beneficios">Aceitamos seu benefício</h2>
+            <h2 class="yf-display yf-benefits-title mb-3" id="titulo-beneficios">Aceitamos seu <span class="yf-benefit-highlight">benefício</span></h2>
             <p class="yf-muted mb-0">Treine na yahoofit com TotalPass ou Wellhub.</p>
           </div>
           <div class="col-lg-6">
             <ul class="yf-benefit-list list-unstyled mb-0" aria-label="Benefícios aceitos">
-              <li class="yf-benefit-card"><strong class="yf-benefit-provider">TotalPass</strong><span class="yf-benefit-label">Benefício aceito</span></li>
-              <li class="yf-benefit-card"><strong class="yf-benefit-provider">Wellhub</strong><span class="yf-benefit-label">Benefício aceito</span></li>
+              <li>
+                <a class="yf-benefit-card yf-benefit-totalpass" href="https://totalpass.com/br/" target="_blank" rel="noopener noreferrer" aria-label="Conhecer o site da TotalPass (abre em nova aba)">
+                  <svg class="yf-benefit-external" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span class="yf-benefit-brand"><img src="assets/img/parceiros/totalpass.png" width="205" height="23" alt="TotalPass" loading="lazy" decoding="async"></span>
+                  <span class="yf-benefit-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9" stroke-linecap="round" stroke-linejoin="round"/></svg> Benefício aceito</span>
+                </a>
+              </li>
+              <li>
+                <a class="yf-benefit-card yf-benefit-wellhub" href="https://wellhub.com/pt-br/" target="_blank" rel="noopener noreferrer" aria-label="Conhecer o site da Wellhub (abre em nova aba)">
+                  <svg class="yf-benefit-external" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span class="yf-benefit-brand"><img src="assets/img/parceiros/wellhub.svg" width="1095" height="214" alt="Wellhub" loading="lazy" decoding="async"></span>
+                  <span class="yf-benefit-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9" stroke-linecap="round" stroke-linejoin="round"/></svg> Benefício aceito</span>
+                </a>
+              </li>
             </ul>
-            <a class="yf-benefit-contact mt-2" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de saber como usar meu benefício TotalPass ou Wellhub.">Consultar condições de acesso <span aria-hidden="true">→</span></a>
+            <a class="btn yf-btn yf-btn-outline-dark yf-benefit-contact mt-4" href="#contato" data-contact data-message="Olá, yahoofit! Gostaria de saber como usar meu benefício TotalPass ou Wellhub.">Consultar meu benefício <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
