@@ -10,7 +10,7 @@
   const contactModal = document.getElementById("contatoPendente");
   const mobileMenu = document.getElementById("menuCelular");
   const menuButton = document.querySelector('[data-bs-target="#menuCelular"]');
-  const defaultMessage = "Olá, YahooFit! Gostaria de conhecer a academia.";
+  const defaultMessage = "Olá, yahoofit! Gostaria de conhecer a academia.";
   const whatsappNumber = String(config.whatsappNumber || "").replace(/\D/g, "");
   const contactReady = config.whatsappConfirmed === true && /^55\d{10,11}$/.test(whatsappNumber);
   let lastContactTrigger = null;

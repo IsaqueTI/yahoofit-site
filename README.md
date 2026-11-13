@@ -1,6 +1,6 @@
-# YahooFit — HTML5, Bootstrap 5 e JavaScript puro
+# yahoofit — HTML5, Bootstrap 5 e JavaScript puro
 
-Versão estática do protótipo visual da YahooFit, no Jardim Brasília, em Uberlândia/MG. O conteúdo principal está no HTML e as interações usam JavaScript nativo e os componentes do Bootstrap.
+Versão estática do protótipo visual da yahoofit, no Jardim Brasília, em Uberlândia/MG. O conteúdo principal está no HTML e as interações usam JavaScript nativo e os componentes do Bootstrap.
 
 **Origem visual:** [IsaqueTI/yahoo-fit-wellness-hub](https://github.com/IsaqueTI/yahoo-fit-wellness-hub), commit `4f033668e69399389199227b5243885f8b08c1fe`.
 
@@ -28,7 +28,7 @@ Acesse `http://localhost:8080`. Não há instalação de pacotes, compilação, 
 | `assets/css/site.css` | Identidade visual e comportamento responsivo |
 | `assets/js/config.js` | Confirmação do contato e do endereço |
 | `assets/js/site.js` | Navegação, contatos e complementos de acessibilidade |
-| `assets/img/` | Fotografias ilustrativas do protótipo e favicon |
+| `assets/img/` | Logo fornecido pela academia, fotografias ilustrativas e favicon |
 | `assets/vendor/bootstrap/` | Bootstrap 5.3.9 local e sua licença MIT |
 | `scripts/check-static.py` | Verificação de referências, HTML, componentes e dependências |
 | `docs/MIGRACAO.md` | Decisões e limites da conversão |
@@ -87,6 +87,8 @@ node --check assets/js/site.js
 Node é utilizado somente na verificação de sintaxe acima; não é uma dependência para publicar ou usar o site. Também confira no navegador o menu móvel, fechamento com Escape, FAQ, detalhes de cada modalidade, aviso de contato pendente e larguras entre 320 e 1440 px.
 
 ## Terceiros
+
+A marca é escrita como `yahoofit`. A imagem enviada pela academia está em `assets/img/yahoofit-logo.png`, sem alteração dos pixels originais, e também é usada como favicon. O CSS enquadra o símbolo e o nome no cabeçalho, no menu móvel e no rodapé.
 
 Bootstrap 5.3.9 é distribuído sob licença MIT, preservada em `assets/vendor/bootstrap/LICENSE`. As cinco fotografias foram preservadas do repositório de origem, sem alteração dos arquivos. Consulte `docs/MIGRACAO.md` para a origem e as verificações.
 
